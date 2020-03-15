@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspRestApiWithJWT", "AspRestApiWithJWT\AspRestApiWithJWT.csproj", "{B38589E3-FD47-469E-A540-88CA9EA1ED35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{F4148669-462C-4ECF-872A-AB620239A00B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "DAL\Domain.csproj", "{F4148669-462C-4ECF-872A-AB620239A00B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{D971F873-E7D9-4BD2-9A8F-0D7AEE8F36BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F4148669-462C-4ECF-872A-AB620239A00B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4148669-462C-4ECF-872A-AB620239A00B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4148669-462C-4ECF-872A-AB620239A00B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D971F873-E7D9-4BD2-9A8F-0D7AEE8F36BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D971F873-E7D9-4BD2-9A8F-0D7AEE8F36BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D971F873-E7D9-4BD2-9A8F-0D7AEE8F36BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D971F873-E7D9-4BD2-9A8F-0D7AEE8F36BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

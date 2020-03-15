@@ -8,8 +8,8 @@ namespace DAL.Interfaces
     {
         IEnumerable<T> GetAll();
         T GetOne(int Id);
-        void Create(object T);
-        void Update(object T);
+        void Create(T data);
+        void Update(T data);
         void Delete(int Id);
         void Save();
     }
