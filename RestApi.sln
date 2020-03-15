@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspRestApiWithJWT", "AspRestApiWithJWT\AspRestApiWithJWT.csproj", "{B38589E3-FD47-469E-A540-88CA9EA1ED35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspRestApiWithJWT", "AspRestApiWithJWT\AspRestApiWithJWT.csproj", "{B38589E3-FD47-469E-A540-88CA9EA1ED35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "DAL\Domain.csproj", "{F4148669-462C-4ECF-872A-AB620239A00B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "DAL\Domain.csproj", "{F4148669-462C-4ECF-872A-AB620239A00B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{D971F873-E7D9-4BD2-9A8F-0D7AEE8F36BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{D971F873-E7D9-4BD2-9A8F-0D7AEE8F36BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{7946FF14-F62D-47E8-924C-CE218FA50084}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{D971F873-E7D9-4BD2-9A8F-0D7AEE8F36BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D971F873-E7D9-4BD2-9A8F-0D7AEE8F36BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D971F873-E7D9-4BD2-9A8F-0D7AEE8F36BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7946FF14-F62D-47E8-924C-CE218FA50084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7946FF14-F62D-47E8-924C-CE218FA50084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7946FF14-F62D-47E8-924C-CE218FA50084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7946FF14-F62D-47E8-924C-CE218FA50084}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
